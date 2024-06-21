@@ -6,11 +6,11 @@
 }
 
 :root{ /*seletor raiz para variáveis*/
-    --cor-de-fundo: rgb(29, 17, 254);
+    --cor-de-fundo: rgba(29, 17, 254, 0.427);
     --cor-da-letra: black;
-    --cor-branco:white;
+    --cor-branco:#ffffff;
 }
 
 body{/*seletor body*/
-    background-color: var(--cor-branco);
+    background-color: var(--cor-de-fundo);
 }

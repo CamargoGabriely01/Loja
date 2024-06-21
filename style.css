@@ -1,16 +1,16 @@
 @import url("style/header.css");
 
-*{/*seletor universal para resetar as bordas da página*/
-    padding: 0px;
+*{ /*seletor universal para resetar as bordas da página*/
+    padding:0px;
     margin: 0px;
 }
 
-:root{ /*seletor raiz para variáveis*/
-    --cor-de-fundo: rgba(29, 17, 254, 0.427);
+:root {/* seletor raiz para variáveis*/
+    --cor-de-fundo: rgb(0, 0, 0);
     --cor-da-letra: black;
-    --cor-branco:#ffffff;
+    --cor-branco: white;
 }
 
-body{/*seletor body*/
+body{/*seletor Body*/
     background-color: var(--cor-de-fundo);
 }
